@@ -1,0 +1,5 @@
+
+/home/awen/cp-test/subdir2/file4:
+ filesystem blocksize 4096, begins at LBA 1050624; assuming 512 byte sectors.
+ byte_offset  begin_LBA    end_LBA    sectors
+           0  778758144  778766335       8192

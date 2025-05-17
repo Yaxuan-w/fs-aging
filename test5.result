@@ -1,0 +1,140 @@
+
+=== Run 1 ===
+
+-- file1 block comparison:
+  initial:      [(497223680, 497231871)]
+  intermediate: []
+  external:     [(927203328, 927211519)]
+
+-- file2 block comparison:
+  initial:      [(605865984, 605874175)]
+  intermediate: []
+  external:     [(927211520, 927219711)]
+
+-- file3 block comparison:
+  initial:      [(606046208, 606054399)]
+  intermediate: []
+  external:     [(927219712, 927227903)]
+
+-- file4 block comparison:
+  initial:      [(516130816, 516139007)]
+  intermediate: []
+  external:     [(927227904, 927236095)]
+
+-- readdir() order:
+  [!] initial and external have different readdir() order.
+  initial:      ['file4', 'file3', 'file1', 'file2']
+  intermediate: []
+  external:     ['file4', 'file3', 'file2', 'file1']
+
+=== Run 2 ===
+
+-- file1 block comparison:
+  initial:      [(778696704, 778704895)]
+  intermediate: []
+  external:     [(621019136, 621027327)]
+
+-- file2 block comparison:
+  initial:      [(778704896, 778713087)]
+  intermediate: []
+  external:     [(621027328, 621035519)]
+
+-- file3 block comparison:
+  initial:      [(778713088, 778721279)]
+  intermediate: []
+  external:     [(621035520, 621043711)]
+
+-- file4 block comparison:
+  initial:      [(778721280, 778729471)]
+  intermediate: []
+  external:     [(621043712, 621051903)]
+
+-- readdir() order:
+  [!] initial and external have different readdir() order.
+  initial:      ['file4', 'file3', 'file1', 'file2']
+  intermediate: []
+  external:     ['file2', 'file1', 'file4', 'file3']
+
+=== Run 3 ===
+
+-- file1 block comparison:
+  initial:      [(778729472, 778737663)]
+  intermediate: []
+  external:     [(310640640, 310648831)]
+
+-- file2 block comparison:
+  initial:      [(778737664, 778745855)]
+  intermediate: []
+  external:     [(310648832, 310657023)]
+
+-- file3 block comparison:
+  initial:      [(778749952, 778758143)]
+  intermediate: []
+  external:     [(310657024, 310665215)]
+
+-- file4 block comparison:
+  initial:      [(778758144, 778766335)]
+  intermediate: []
+  external:     [(310665216, 310673407)]
+
+-- readdir() order:
+  [-] initial and external have the same readdir() order.
+  initial:      ['file4', 'file3', 'file1', 'file2']
+  intermediate: []
+  external:     ['file4', 'file3', 'file1', 'file2']
+
+=== Run 4 ===
+
+-- file1 block comparison:
+  initial:      [(778696704, 778704895)]
+  intermediate: []
+  external:     [(369360896, 369369087)]
+
+-- file2 block comparison:
+  initial:      [(778704896, 778713087)]
+  intermediate: []
+  external:     [(369369088, 369377279)]
+
+-- file3 block comparison:
+  initial:      [(778713088, 778721279)]
+  intermediate: []
+  external:     [(369377280, 369385471)]
+
+-- file4 block comparison:
+  initial:      [(778721280, 778729471)]
+  intermediate: []
+  external:     [(369385472, 369393663)]
+
+-- readdir() order:
+  [!] initial and external have different readdir() order.
+  initial:      ['file4', 'file3', 'file1', 'file2']
+  intermediate: []
+  external:     ['file1', 'file2', 'file4', 'file3']
+
+=== Run 5 ===
+
+-- file1 block comparison:
+  initial:      [(778729472, 778737663)]
+  intermediate: []
+  external:     [(813957120, 813965311)]
+
+-- file2 block comparison:
+  initial:      [(778737664, 778745855)]
+  intermediate: []
+  external:     [(813965312, 813973503)]
+
+-- file3 block comparison:
+  initial:      [(778749952, 778758143)]
+  intermediate: []
+  external:     [(813973504, 813981695)]
+
+-- file4 block comparison:
+  initial:      [(778758144, 778766335)]
+  intermediate: []
+  external:     [(813981696, 813989887)]
+
+-- readdir() order:
+  [!] initial and external have different readdir() order.
+  initial:      ['file4', 'file3', 'file1', 'file2']
+  intermediate: []
+  external:     ['file2', 'file1', 'file4', 'file3']

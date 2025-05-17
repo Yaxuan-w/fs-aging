@@ -1,0 +1,165 @@
+
+=== Run 1 ===
+
+-- file1 block comparison:
+  [!] Blocks differ between stages on **MAIN**.
+  initial:      [(449325056, 449333247)]
+  intermediate: [(449562624, 449570815)]
+  external:     [(558104576, 558112767)]
+
+-- file2 block comparison:
+  [-] All stages have the same blocks on **MAIN**.
+  initial:      [(449431552, 449439743)]
+  intermediate: [(449431552, 449439743)]
+  external:     [(558112768, 558120959)]
+
+-- file3 block comparison:
+  [-] All stages have the same blocks on **MAIN**.
+  initial:      [(449472512, 449480703)]
+  intermediate: [(449472512, 449480703)]
+  external:     [(558120960, 558129151)]
+
+-- file4 block comparison:
+  [-] All stages have the same blocks on **MAIN**.
+  initial:      [(449546240, 449554431)]
+  intermediate: [(449546240, 449554431)]
+  external:     [(558129152, 558137343)]
+
+-- readdir() order:
+  [!] readdir() order differs across stages.
+    [-] initial and intermediate have the same readdir() order.
+  initial:      ['file4', 'file3', 'file1', 'file2']
+  intermediate: ['file4', 'file3', 'file1', 'file2']
+  external:     ['file1', 'file2', 'file3', 'file4']
+
+=== Run 2 ===
+
+-- file1 block comparison:
+  [!] Blocks differ between stages on **MAIN**.
+  initial:      [(778696704, 778704895)]
+  intermediate: [(924731392, 924739583)]
+  external:     [(214171648, 214179839)]
+
+-- file2 block comparison:
+  [-] All stages have the same blocks on **MAIN**.
+  initial:      [(778704896, 778713087)]
+  intermediate: [(778704896, 778713087)]
+  external:     [(214179840, 214188031)]
+
+-- file3 block comparison:
+  [-] All stages have the same blocks on **MAIN**.
+  initial:      [(778713088, 778721279)]
+  intermediate: [(778713088, 778721279)]
+  external:     [(214188032, 214196223)]
+
+-- file4 block comparison:
+  [-] All stages have the same blocks on **MAIN**.
+  initial:      [(778721280, 778729471)]
+  intermediate: [(778721280, 778729471)]
+  external:     [(214196224, 214204415)]
+
+-- readdir() order:
+  [!] readdir() order differs across stages.
+    [-] initial and intermediate have the same readdir() order.
+  initial:      ['file4', 'file3', 'file1', 'file2']
+  intermediate: ['file4', 'file3', 'file1', 'file2']
+  external:     ['file4', 'file3', 'file2', 'file1']
+
+=== Run 3 ===
+
+-- file1 block comparison:
+  [!] Blocks differ between stages on **MAIN**.
+  initial:      [(778696704, 778704895)]
+  intermediate: [(924731392, 924739583)]
+  external:     [(646184960, 646193151)]
+
+-- file2 block comparison:
+  [-] All stages have the same blocks on **MAIN**.
+  initial:      [(778729472, 778737663)]
+  intermediate: [(778729472, 778737663)]
+  external:     [(646193152, 646201343)]
+
+-- file3 block comparison:
+  [-] All stages have the same blocks on **MAIN**.
+  initial:      [(778737664, 778745855)]
+  intermediate: [(778737664, 778745855)]
+  external:     [(646201344, 646209535)]
+
+-- file4 block comparison:
+  [-] All stages have the same blocks on **MAIN**.
+  initial:      [(778749952, 778758143)]
+  intermediate: [(778749952, 778758143)]
+  external:     [(646209536, 646217727)]
+
+-- readdir() order:
+  [!] readdir() order differs across stages.
+    [-] initial and intermediate have the same readdir() order.
+  initial:      ['file4', 'file3', 'file1', 'file2']
+  intermediate: ['file4', 'file3', 'file1', 'file2']
+  external:     ['file3', 'file4', 'file2', 'file1']
+
+=== Run 4 ===
+
+-- file1 block comparison:
+  [!] Blocks differ between stages on **MAIN**.
+  initial:      [(778696704, 778704895)]
+  intermediate: [(924731392, 924739583)]
+  external:     [(625213440, 625221631)]
+
+-- file2 block comparison:
+  [-] All stages have the same blocks on **MAIN**.
+  initial:      [(778704896, 778713087)]
+  intermediate: [(778704896, 778713087)]
+  external:     [(625221632, 625229823)]
+
+-- file3 block comparison:
+  [-] All stages have the same blocks on **MAIN**.
+  initial:      [(778713088, 778721279)]
+  intermediate: [(778713088, 778721279)]
+  external:     [(625229824, 625238015)]
+
+-- file4 block comparison:
+  [-] All stages have the same blocks on **MAIN**.
+  initial:      [(778721280, 778729471)]
+  intermediate: [(778721280, 778729471)]
+  external:     [(625238016, 625246207)]
+
+-- readdir() order:
+  [!] readdir() order differs across stages.
+    [-] initial and intermediate have the same readdir() order.
+  initial:      ['file4', 'file3', 'file1', 'file2']
+  intermediate: ['file4', 'file3', 'file1', 'file2']
+  external:     ['file4', 'file3', 'file2', 'file1']
+
+=== Run 5 ===
+
+-- file1 block comparison:
+  [!] Blocks differ between stages on **MAIN**.
+  initial:      [(778696704, 778704895)]
+  intermediate: [(924731392, 924739583)]
+  external:     [(730071040, 730079231)]
+
+-- file2 block comparison:
+  [-] All stages have the same blocks on **MAIN**.
+  initial:      [(778729472, 778737663)]
+  intermediate: [(778729472, 778737663)]
+  external:     [(730079232, 730087423)]
+
+-- file3 block comparison:
+  [-] All stages have the same blocks on **MAIN**.
+  initial:      [(778737664, 778745855)]
+  intermediate: [(778737664, 778745855)]
+  external:     [(730087424, 730095615)]
+
+-- file4 block comparison:
+  [-] All stages have the same blocks on **MAIN**.
+  initial:      [(778749952, 778758143)]
+  intermediate: [(778749952, 778758143)]
+  external:     [(730095616, 730103807)]
+
+-- readdir() order:
+  [!] readdir() order differs across stages.
+    [-] initial and intermediate have the same readdir() order.
+  initial:      ['file4', 'file3', 'file1', 'file2']
+  intermediate: ['file4', 'file3', 'file1', 'file2']
+  external:     ['file3', 'file4', 'file2', 'file1']

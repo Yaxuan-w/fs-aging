@@ -1,0 +1,40 @@
+
+=== Run 1 ===
+
+-- readdir() order:
+  [-] initial and external have the same readdir() order.
+  initial:      ['file4', 'file3', 'file2', 'file1']
+  intermediate: []
+  external:     ['file4', 'file3', 'file2', 'file1']
+
+=== Run 2 ===
+
+-- readdir() order:
+  [-] initial and external have the same readdir() order.
+  initial:      ['file1', 'file2', 'file4', 'file3']
+  intermediate: []
+  external:     ['file1', 'file2', 'file4', 'file3']
+
+=== Run 3 ===
+
+-- readdir() order:
+  [-] initial and external have the same readdir() order.
+  initial:      ['file4', 'file3', 'file1', 'file2']
+  intermediate: []
+  external:     ['file4', 'file3', 'file1', 'file2']
+
+=== Run 4 ===
+
+-- readdir() order:
+  [-] initial and external have the same readdir() order.
+  initial:      ['file3', 'file4', 'file1', 'file2']
+  intermediate: []
+  external:     ['file3', 'file4', 'file1', 'file2']
+
+=== Run 5 ===
+
+-- readdir() order:
+  [-] initial and external have the same readdir() order.
+  initial:      ['file1', 'file2', 'file4', 'file3']
+  intermediate: []
+  external:     ['file1', 'file2', 'file4', 'file3']
